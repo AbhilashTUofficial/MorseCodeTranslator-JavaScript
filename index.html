@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,30 @@
     <header>
         <h1>Morse Code Translator</h1>
     </header>
-    <div class="result">
+    <div class="moves">
+        <div class="click_point" >
+            <button id='dot_point' onclick='dot_move()'>Dot</button>
+        </div>
+        <div class="click_point">
+            <button id='dash_point' onclick='dash_move()'>Dash</button>
+
+        </div>
+        <div class="click_point">
+            <button id='space_point' onclick='space_move()'>Space</button>
+
+        </div>
     </div>
+    <div class="grid">
+        <div class="container "id="message">
+            <p id="code_sms">Morse Code</p>
+            <button  onclick='copy_code_sms_from_clipboard()'>copy</button>
+        </div>
+        <div class="container " id="translation">
+            <p id="translated_sms">Translated Message</p>
+        </div>
+    </div>
+
+
     <script src="script.js" charset="utf-8"></script>
 </body>
 </html>
