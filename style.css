@@ -61,3 +61,13 @@ header >h1{
     background-color: #04941c;
     color: white;
 }
+#copy_btn{
+    
+    background-color: #04941c;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    box-shadow: lightgray 0px 0px 6px;
+    border-radius: 4px;
+}

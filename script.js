@@ -9,6 +9,7 @@ morse_dict={
     "._":"A",
     "_...":"B",
     "_._.":"C",
+    "_..":"D",
     ".":"E",
     ".._.":"F",
     "__.":"G",
@@ -86,7 +87,15 @@ function message_parsing(sms){
     }
 }
 function copy_code_sms_from_clipboard(){
-    copy_code_sms.select();
-    copy_code_sms.setSelectionRange(0,99999);
-    document.execCommand("copy");
+    text=Message.innerHTML
+
+    // Copy text to clipboard
+
+    // if (window.clipboardData) { // Internet Explorer
+    //     window.clipboardData.setData("Text", text);
+    // } else {
+    //     unsafeWindow.netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+    //     const clipboardHelper = Components.classes["@mozilla.org/widget/clipboardhelper;1"].getService(Components.interfaces.nsIClipboardHelper);
+    //     clipboardHelper.copyString(text);
+    // }
 }
