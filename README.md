@@ -11,6 +11,8 @@ This is a fully functional responsive Morse Code Translator in JavaScript.
 |------|
 |<img src="./Img/morseCodeTranslator1.png" width="400">|
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://vscode.dev/github/AbhilashTUofficial/MorseCodeTranslator-JavaScript)
+
 
 ### Directory Structure :
     MorseCodeTranslator-JavaScript
